@@ -18,7 +18,7 @@ function App() {
         setMessage("");
 
         try {
-            const response = await fetch("https://llm-chatbot-230j.onrender.com/", {
+            const response = await fetch("https://llm-chatbot-230j.onrender.com/chat", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
